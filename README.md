@@ -20,6 +20,6 @@ After unpacking the compressed package Codes for CAOR-D-23-00749, the code packa
   Iter: The number of iterations of the algorithm at termination
   CPU: The total CPU time used by the algorithm at termination
 
-The code package with the file name "Codes_for_SLR" is an important subclass of the GSLFP problem (i.e., the sum of linear ratios (SLR) problem), and its main program is "SOCPRBBRA_SLR.m" When solving a general GSLFP problem, the command "[Solution,Opt_val,Iter,CPU] = SOCPRBBRA_SLR(A, b,  c, d,e,f,r1)" needs to be called.
+The code package with the file name "Codes_for_SLR" is an important subclass of the GSLFP problem (i.e., the sum of linear ratios (SLR) problem), and its main program is "SOCPRBBRA_SLR.m". When solving a SLR problem, the command "[Solution,Opt_val,Iter,CPU] = SOCPRBBRA_SLR(A, b,  c, d,e,f,r1)" needs to be called.
 
 In addition, for the codes in other files, they are numerical experimental settings from our upcoming SCI paper, which correspond to several tables in the paper. We mainly compared the algorithms in five existing papers to demonstrate the efficiency and practical applicability of our algorithm.
